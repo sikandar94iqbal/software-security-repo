@@ -23,7 +23,7 @@ RUN apt-get update \
         bcmath \
         soap
 
-# Copy the source code into the container
+# Copy the source code into the containers
 COPY . /var/www/html/
 
 # Set the working directory to the document root
